@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class ExerciciosOhata {
+
+	public static void main(String[] args)
+	{
+	  Scanner ler = new Scanner(System.in);
+	  int num, num1 = 1, num2 = 2, num3 = 3;
+	  
+	  System.out.println("Bom dia se identifique em qual condição se encontra para estacionar na vaga:");
+	  System.out.println("1. Gestante");
+	  System.out.println("2. Deficiente fisico");
+	  System.out.println("3. Idoso");
+	  System.out.print("digite a sua condição: ");
+	  num = ler.nextInt();
+	  
+	  if (num == num1 || num == num2 || num == num3)
+	  {
+		  System.out.printf("Voce esta autorizado a estacionar na vaga");
+	  }
+	  else
+	  {
+		  System.out.printf("Voce não esta autorizado a estacionar na vaga"); 
+	  }
+
+	}
+
+}
