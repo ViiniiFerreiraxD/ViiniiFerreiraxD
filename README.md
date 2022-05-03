@@ -1,1 +1,6 @@
-scdf ldkfdkfdkfdf
+## ALGORITMO DO EXERCÍCIO
+
+##### Inicio 
+
+
+
